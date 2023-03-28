@@ -9,7 +9,7 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.zyc</groupId>
-    <artifactId>lucky-draw-v1</artifactId>
+    <artifactId>bot-lucky-draw</artifactId>
     <version>BLD.2022.10.25.RELEASE</version>
     <packaging>pom</packaging>
 
@@ -47,6 +47,12 @@
         <cola.components.version>4.3.1</cola.components.version>
     </properties>
 
+    <modules>
+        <module>ld-base</module>
+        <module>ld-pom</module>
+        <module>ld-gateway</module>
+        <module>ld-server</module>
+    </modules>
 
     <build>
         <plugins>
